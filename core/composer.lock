@@ -4,9 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c5eda012b9c7cacb510a7434e57b6133",
-    "content-hash": "78a3c1002aa75ddd3efb51dc08755fe6",
+    "hash": "3fd32d42f4132e40ecd998c289f8ffc7",
+    "content-hash": "4d958392300c6edec934094af58b9a44",
     "packages": [
+        {
+            "name": "cobisja/boothelp",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cobisja/boothelp.git",
+                "reference": "f4c9f69b710da01b2c171f0bfccbb73933d00906"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cobisja/boothelp/zipball/f4c9f69b710da01b2c171f0bfccbb73933d00906",
+                "reference": "f4c9f69b710da01b2c171f0bfccbb73933d00906",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "cobisja\\BootHelp\\": "src/",
+                    "cobisja\\BootHelp\\Guide\\": "Guide/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jorge Cobis",
+                    "email": "jcobis@gmail.com"
+                }
+            ],
+            "description": "PHP Helpers for Bootstrap",
+            "keywords": [
+                "bootstrap",
+                "helpers",
+                "php"
+            ],
+            "time": "2015-05-13 03:50:51"
+        },
         {
             "name": "propel/propel",
             "version": "dev-master",
